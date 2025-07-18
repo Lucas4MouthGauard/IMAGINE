@@ -4,6 +4,11 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Frontend specific
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
 # Production builds
 build/
 dist/

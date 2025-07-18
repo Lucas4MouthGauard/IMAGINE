@@ -4,11 +4,10 @@
   "description": "快速制作创意病毒视频的新方式",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "server": "cd backend && npm run dev",
-    "client": "cd frontend && npm start",
+    "dev": "cd frontend && npm start",
+    "start": "cd frontend && npm start",
     "build": "cd frontend && npm run build",
-    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "install": "cd frontend && npm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -20,9 +19,7 @@
   ],
   "author": "Imagine Team",
   "license": "MIT",
-  "devDependencies": {
-    "concurrently": "^8.2.2"
-  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/your-username/imagine.git"

@@ -22,23 +22,22 @@ Imagine 是一个革命性的创意平台，专为 meme 设计师和视频创作
 ### 🛠️ 技术栈
 
 - 前端: React + TypeScript + Tailwind CSS
-- 后端: Node.js + Express
-- 数据库: MongoDB
-- 视频处理: FFmpeg
-- AI 服务: OpenAI API
+- 样式: Tailwind CSS + Framer Motion
+- 图标: Lucide React
+- 部署: Vercel
 
 ### 📦 安装和运行
 
 ```bash
 # 克隆仓库
-git clone <repository-url>
+git clone https://github.com/Lucas4MouthGauard/IMAGINE.git
 cd Imagine
 
 # 安装依赖
 npm install
 
 # 启动开发服务器
-npm run dev
+npm start
 ```
 
 ### 🌟 贡献
