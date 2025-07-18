@@ -2,7 +2,7 @@ import React from 'react';
 
 function App() {
   const handleCopy = () => {
-    navigator.clipboard.writeText('CA: Coming Soon');
+    navigator.clipboard.writeText('CA:D1zNpCAu6BMGy6Tb8dfEDGxJn4dsLhBCQYFnAKv8bonk');
   };
 
   return (
@@ -17,9 +17,9 @@ function App() {
           <button 
             onClick={handleCopy}
             className="inline-block bg-gradient-to-r from-yellow-400 to-orange-500 text-black font-bold px-6 py-2 rounded-full text-lg shadow-lg cursor-pointer select-all hover:scale-105 transition-transform duration-200"
-            title="Click to copy: CA: Coming Soon"
+            title="Click to copy: CA:D1zNpCAu6BMGy6Tb8dfEDGxJn4dsLhBCQYFnAKv8bonk"
           >
-            CA: Coming Soon
+            CA:D1zNpCAu6BMGy6Tb8dfEDGxJn4dsLhBCQYFnAKv8bonk
           </button>
         </div>
         <p className="text-xl text-white/80 mb-8">
