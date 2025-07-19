@@ -146,8 +146,8 @@ const About: React.FC = () => {
                 className="card text-center"
               >
                 <div className="w-24 h-24 mx-auto mb-4 bg-gradient-to-br from-purple-500 to-blue-500 rounded-full flex items-center justify-center">
-                  <span className="text-2xl font-bold text-white">
-                    {member.name.charAt(0)}
+                  <span className="text-3xl text-white">
+                    ✨
                   </span>
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-1">
