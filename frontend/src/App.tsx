@@ -5,6 +5,20 @@ function App() {
     navigator.clipboard.writeText('CA: Coming Soon');
   };
 
+  const handleStartCreating = () => {
+    // 可以添加多种功能选项
+    const options = [
+      '🚀 开始创建视频',
+      '📱 下载移动应用',
+      '💬 加入社区',
+      '📧 联系我们',
+      '🎯 查看教程'
+    ];
+    
+    const randomOption = options[Math.floor(Math.random() * options.length)];
+    alert(`✨ ${randomOption} ✨\n\n功能即将上线，敬请期待！`);
+  };
+
   return (
     <div className="App min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 flex items-center justify-center">
       <div className="text-center">
@@ -25,7 +39,10 @@ function App() {
         <p className="text-xl text-white/80 mb-8">
           A new way to create creative viral videos fast
         </p>
-        <button className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+        <button 
+          onClick={handleStartCreating}
+          className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+        >
           Start Creating
         </button>
       </div>
